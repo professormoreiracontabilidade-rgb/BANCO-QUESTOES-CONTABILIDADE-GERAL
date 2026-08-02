@@ -1,0 +1,12 @@
+{
+  "versao": "1.4",
+  "arquivo_importado": "04(3).pdf",
+  "paginas_pdf": 71,
+  "questoes_detectadas_por_url": 200,
+  "questoes_validas_extraidas": 200,
+  "questoes_adicionadas_ao_banco": 200,
+  "duplicadas_ignoradas": 0,
+  "questoes_enviadas_para_revisao": 0,
+  "total_questoes_publicadas": 1731,
+  "total_questoes_em_revisao": 48
+}
