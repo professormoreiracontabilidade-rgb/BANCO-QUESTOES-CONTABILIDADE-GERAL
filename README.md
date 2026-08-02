@@ -1,50 +1,27 @@
-# Banco de Questões de Contabilidade Geral — Versão 1.0
+# Banco de Questões de Contabilidade Geral — Versão 1.1
 
-PWA público do **Curso de Contabilidade Professor Moreira**, preparado para publicação no GitHub Pages.
+Atualização oficial do PWA do Curso de Contabilidade Professor Moreira.
 
-## Conteúdo desta versão
+## Nesta versão
 
-- **931 questões liberadas** no aplicativo.
-- **48 questões separadas para revisão** em `data/questoes_revisar.json`.
-- Pesquisa por enunciado, tema, órgão, cargo, ano, alternativas e comentários.
-- Filtros por tema, ano e dificuldade.
-- Simulados de 5, 10, 20, 30, 50 ou 100 questões.
-- Correção imediata e comentário completo.
-- Favoritos, caderno de erros e estatísticas locais.
-- Instalação no celular como PWA.
-- Funcionamento offline após o primeiro acesso.
+- Banco anterior preservado.
+- `01.pdf` importado automaticamente.
+- 200 novas questões publicadas.
+- 0 duplicidades ignoradas.
+- 0 registros do PDF 01 separados para revisão.
+- Total publicado: 1131 questões.
+- Novas questões sem comentário exibem: **Comentário ainda não disponível**.
 
-## Publicação no GitHub
+## Publicação
 
-1. Extraia o ZIP.
-2. Copie **todos os arquivos e pastas que estão dentro desta pasta** para:
-   `Documentos/GitHub/BANCO-QUESTOES-CONTABILIDADE-GERAL`
-3. No GitHub Desktop, faça o commit:
-   `Versão 1.0 oficial do banco de questões`
-4. Clique em `Push origin`.
-5. No GitHub, abra:
-   `Settings > Pages > Deploy from a branch > main > /root > Save`
+Substitua todos os arquivos do repositório pelos arquivos deste ZIP, faça:
 
-## Estrutura
+`Commit: Versão 1.1 - Inclusão do PDF 01`
 
-```text
-index.html
-app.js
-style.css
-manifest.json
-service-worker.js
-README.md
-.nojekyll
-data/
-  questoes.json
-  questoes_revisar.json
-icons/
-  icon-192.svg
-  icon-512.svg
-```
+e depois `Push origin`.
 
-## Controle de qualidade
+Depois de atualizar, feche e reabra o PWA ou use `Ctrl + Shift + R`.
 
-A extração foi automatizada. Questões com falha estrutural detectável foram removidas da publicação e enviadas para o arquivo de revisão. Fórmulas, tabelas, imagens e questões que atravessam páginas ainda devem ser conferidas progressivamente.
+## Controle
 
-Gerado em: 02/08/2026 19:41
+Veja `data/relatorio_importacao_01.json`.
