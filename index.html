@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#8b1118">
+<meta name="description" content="Banco de Questões Comentadas de Contabilidade Geral e Avançada">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.svg">
+<link rel="stylesheet" href="style.css">
+<title>Banco de Questões — Professor Moreira</title>
+</head>
+<body>
+<header class="hero">
+ <div class="brand"><div class="logo">PM</div><div><small>Curso de Contabilidade Professor Moreira</small><h1>Banco de Questões</h1><p>Contabilidade Geral e Avançada • FGV</p></div></div>
+ <button id="installBtn" class="install hidden">Instalar aplicativo</button>
+</header>
+<main>
+<section id="home" class="screen active">
+ <div class="stats-grid">
+  <article><strong id="totalQuestoes">0</strong><span>questões disponíveis</span></article>
+  <article><strong id="respondidas">0</strong><span>respondidas</span></article>
+  <article><strong id="acertos">0</strong><span>acertos</span></article>
+  <article><strong id="percentual">0%</strong><span>aproveitamento</span></article>
+ </div>
+ <section class="panel">
+  <h2>Pesquisar questões</h2>
+  <input id="busca" type="search" placeholder="Ex.: patrimônio, CPC 27, estoques, DFC">
+  <div class="filters">
+   <select id="tema"><option value="">Todos os temas</option></select>
+   <select id="ano"><option value="">Todos os anos</option></select>
+   <select id="dificuldade"><option value="">Todas as dificuldades</option><option>Fácil</option><option>Média</option><option>Difícil</option><option>Não classificada</option></select>
+  </div>
+  <button class="primary" id="pesquisarBtn">Pesquisar</button>
+ </section>
+ <section class="panel">
+  <h2>Gerar simulado</h2>
+  <div class="simulado-controls">
+   <label>Quantidade<select id="quantidade"><option>5</option><option selected>10</option><option>20</option><option>30</option><option>50</option><option>100</option></select></label>
+   <label>Tema<select id="temaSimulado"><option value="">Todos os temas</option></select></label>
+  </div>
+  <button class="primary" id="iniciarBtn">Iniciar simulado</button>
+ </section>
+ <div class="action-grid"><button id="erradasBtn">Revisar erradas</button><button id="favoritasBtn">Favoritas</button><button id="listarBtn">Banco completo</button><button id="limparBtn">Zerar progresso</button></div>
+ <section class="panel"><div class="panel-title"><h2>Questões encontradas</h2><span id="contadorLista"></span></div><div id="listaQuestoes" class="question-list"></div><button id="maisBtn" class="more hidden">Mostrar mais</button></section>
+</section>
+<section id="quiz" class="screen">
+ <div class="quiz-top"><button class="ghost" id="sairBtn">← Sair</button><span id="progresso"></span><span id="cronometro">00:00:00</span></div>
+ <article class="question-card"><div class="question-meta" id="meta"></div><h2 id="enunciado"></h2><div id="alternativas" class="alternatives"></div><button id="favoritarAtual" class="favorite">☆ Favoritar</button></article>
+</section>
+<section id="resultado" class="screen"><article class="result-card"><div id="statusResposta" class="answer-status"></div><p id="resumoResposta"></p><div class="comment-box"><h2>Comentário</h2><div id="comentario"></div></div><button class="primary" id="proximaBtn">Próxima questão</button></article></section>
+<section id="final" class="screen"><article class="result-card center"><h2>Simulado concluído</h2><div id="resultadoFinal" class="final-score"></div><button class="primary" id="revisarSimuladoBtn">Revisar erros deste simulado</button><button id="voltarInicioBtn">Voltar ao início</button></article></section>
+</main>
+<footer>Curso de Contabilidade Professor Moreira</footer>
+<script src="app.js"></script>
+</body></html>

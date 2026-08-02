@@ -1,0 +1,24 @@
+{
+  "name": "Banco de Questões de Contabilidade Geral",
+  "short_name": "Questões CG",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#8b1118",
+  "description": "Questões comentadas de Contabilidade Geral e Avançada — Professor Moreira",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

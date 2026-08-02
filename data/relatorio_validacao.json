@@ -1,0 +1,14 @@
+{
+  "versao": "1.0",
+  "questoes_publicadas": 931,
+  "questoes_para_revisao": 48,
+  "questoes_movidas_nesta_validacao": 6,
+  "temas_identificados": 349,
+  "menor_ano": 2008,
+  "maior_ano": 2023,
+  "validacoes": {
+    "ids_unicos": true,
+    "gabarito_presente_nas_alternativas": true,
+    "campos_essenciais_presentes": true
+  }
+}
