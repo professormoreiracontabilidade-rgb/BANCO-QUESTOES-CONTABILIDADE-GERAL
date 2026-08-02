@@ -1,23 +1,21 @@
-# Banco de Questões de Contabilidade Geral — Versão 1.4
+# Banco de Questões de Contabilidade Geral — Versão 1.5
 
 Atualização oficial do PWA do Curso de Contabilidade Professor Moreira.
 
 ## Nesta versão
 
-- Banco da versão 1.3 preservado.
-- `04(3).pdf` importado.
-- 200 novas questões publicadas.
-- 0 duplicidades ignoradas.
-- 0 registros separados para revisão.
-- Total publicado: 1731 questões.
-- Questões sem comentário exibem: **Comentário ainda não disponível**.
+- Banco da versão 1.4 preservado.
+- `05(2).pdf` importado.
+- 200 novas questões adicionadas.
+- Total publicado: 1931 questões.
+- Cache do PWA atualizado para forçar o GitHub Pages a carregar o novo banco.
 
-## Publicação
+## Publicação pelo GitHub Desktop
 
-Substitua os arquivos do repositório por estes, faça o commit:
+Copie **o conteúdo desta pasta** para dentro da pasta local do repositório, substitua os arquivos, faça o commit:
 
-`Versão 1.4 - Inclusão do PDF 04`
+`Versão 1.5 - Inclusão do PDF 05`
 
 Depois clique em `Push origin`.
 
-Veja o relatório em `data/relatorio_importacao_04.json`.
+Veja o relatório em `data/relatorio_importacao_05.json`.

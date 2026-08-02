@@ -1,0 +1,12 @@
+{
+  "versao": "1.5",
+  "arquivo_importado": "05(2).pdf",
+  "paginas_pdf": 74,
+  "questoes_detectadas_por_url": 200,
+  "questoes_validas_extraidas": 200,
+  "questoes_adicionadas_ao_banco": 200,
+  "duplicadas_ignoradas": 0,
+  "questoes_enviadas_para_revisao": 0,
+  "total_questoes_publicadas": 1931,
+  "total_questoes_em_revisao": 0
+}
